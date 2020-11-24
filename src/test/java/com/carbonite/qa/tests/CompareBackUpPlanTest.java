@@ -32,8 +32,9 @@ public class CompareBackUpPlanTest extends TestBase {
 	void getTitleOfThePage() {
 
 		String titleOfThePage = backUpPlan.getTitleOfThePage();
+		System.out.println(titleOfThePage);
 
-		Assert.assertEquals(titleOfThePage, prop.getProperty("Title-CompareBackUpPlan"));
+		Assert.assertEquals(titleOfThePage, "Backup Product Select | Carbonite");
 
 	}
 
